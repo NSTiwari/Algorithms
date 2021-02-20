@@ -36,6 +36,9 @@ def main():
 	if(option==3):
 	   read(db, collectionName)
 
+	if(option==4):
+		delete(db, collectionName)
+
 
 
 # Get input data from user.
@@ -55,6 +58,8 @@ def read(db, collectionName):
 	for i in result:
 		print(i)
 
+
+# Update records.
 def update(db, collectionName):
 	condition_dict = {}
 	updated_dict = {}
@@ -79,6 +84,16 @@ def update(db, collectionName):
 	})
 
 	print("Record updated successfully.") 
+
+
+# Delete records.
+def delete(db, collectionName):
+	condition_dict = {}
+	condition_field = input("Delete record by: ")
+	condition_value = input("Enter the "+condition_field+" to delete records: ")
+	condition_dict[condition_field] = condition_value
+	db[collectionName].delete_many(condition_dict)
+	print("Record(s) deleted successfully.")
 
 
 
