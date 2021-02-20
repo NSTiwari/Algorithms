@@ -37,6 +37,7 @@ if(option==1):
 
 	#print(dictionary)
 	db[collectionName].insert_one(dictionary)
+	print("Recorded inserted successfully.")
 
 	'''result = db[collectionName].fetch({})
 
