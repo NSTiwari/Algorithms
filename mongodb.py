@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+import json
 
 def main():
 	ip = '127.0.0.1'
@@ -16,7 +17,8 @@ def main():
 	print("2. Update")
 	print("3. Read")
 	print("4. Delete")
-	print("5. Find", '\n')
+	print("5. Find")
+	print("6. Save Collection", '\n')
 
 	option = int(input("Select one of the option: "))
 	print()
@@ -41,6 +43,9 @@ def main():
 
 	if(option==5):
 		find(db, collectionName)
+
+	if(option==6):
+		save_collection(db, collectionName)
 
 
 
@@ -106,6 +111,19 @@ def find(db, collectionName):
 	result = db[collectionName].find(condition_dict)
 	for i in result:
 		print(i)
+
+def save_collection(db, collectionName):
+	records = []
+	result = db[collectionName].find({})
+	for record in result:
+		records.append(record)
+
+	with open('collections.json', 'w') as fp:
+		json.dump(records, fp)
+		
+	print("Collection "+collectionName+" is saved on disk.")
+
+
 
 
 if __name__=="__main__":
