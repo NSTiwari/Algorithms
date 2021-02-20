@@ -28,6 +28,9 @@ def main():
 
 		db[collectionName].insert_one(dictionary)
 		print("Recorded inserted successfully.")
+
+	if(option==2):
+		update(db, collectionName)
 		
 		
 	if(option==3):
@@ -51,6 +54,31 @@ def read(db, collectionName):
 	result = db[collectionName].find({})
 	for i in result:
 		print(i)
+
+def update(db, collectionName):
+	condition_dict = {}
+	updated_dict = {}
+
+	condition_field = input("Find record by: ")
+	condition_value = input("Enter the "+condition_field+": ")
+	print()
+	condition_dict[condition_field] = condition_value
+
+	n = int(input("Enter the no. of fields to be updated: "))
+	for i in range(n):
+		field_to_be_updated = input("Enter field"+str(i+1)+" to be updated: ")
+		value_to_be_updated = input("Enter value"+str(i+1)+" to be updated: ")
+		print()
+		updated_dict[field_to_be_updated] = value_to_be_updated
+
+
+	db[collectionName].update_one(
+	condition_dict,
+	{
+	"$set": updated_dict
+	})
+
+	print("Record updated successfully.") 
 
 
 
