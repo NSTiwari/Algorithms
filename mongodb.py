@@ -108,6 +108,7 @@ def delete(db, collectionName):
 	db[collectionName].delete_many(condition_dict)
 	print("Record(s) deleted successfully.")
 
+# Find records.
 def find(db, collectionName):
 	condition_dict = {}
 	condition_field = input("Find record by: ")
@@ -117,6 +118,7 @@ def find(db, collectionName):
 	for i in result:
 		print(i)
 
+# Save collection on disk.
 def save_collection(db, collectionName):
 	records = []
 	collection_to_save = input("Enter the collection to be saved: ")
@@ -130,6 +132,7 @@ def save_collection(db, collectionName):
 	print("Collection "+collection_to_save+" is saved on disk.")
 
 
+# Import collection in database from disk.
 def import_collection(db, collectionName):
 
 	# Load the collections.json file from local machine.
