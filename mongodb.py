@@ -33,6 +33,7 @@ def main():
 			data(dictionary, n)
 
 			db[collectionName].insert_one(dictionary)
+			#print(dictionary.get('age'))
 			print("Record inserted successfully.")
 
 		if(option==2):
@@ -69,6 +70,9 @@ def data(dictionary, n):
 		print()
 		dictionary[keys] = values
 
+	dictionary['age'] = int(dictionary['age'])
+
+
 # Read all data from the collection.
 def read(db, collectionName):
 	result = db[collectionName].find({})
@@ -92,6 +96,8 @@ def update(db, collectionName):
 		value_to_be_updated = input("Enter value"+str(i+1)+" to be updated: ")
 		print()
 		updated_dict[field_to_be_updated] = value_to_be_updated
+
+	updated_dict['age'] = int(updated_dict['age'])
 
 
 	db[collectionName].update_one(
@@ -155,15 +161,16 @@ def import_collection(db, collectionName):
 # Compute Aggregation.
 def aggregation(db, collectionName):
 	aggregation_on = input("Enter the field to apply aggregation: ")
+
 	result = db[collectionName].aggregate(
 		[
 			{ 
     			"$group": { 
       					   "_id": None, 
-        					"total": {"$sum": {"$toInt": "$age"}},
-        					"average": {"$avg":{"toInt": "$age"}},
-        					"maximum": {"$max": {"toInt": "$age"}},
-        					"minimum": {"$min": {"toInt": "$age"}}  
+        					"total": {"$sum": "$"+aggregation_on},
+        					"average": {"$avg": "$"+aggregation_on},
+        					"maximum": {"$max": "$"+aggregation_on},
+        					"minimum": {"$min": "$"+aggregation_on}  
     					} 
 
 			} 
