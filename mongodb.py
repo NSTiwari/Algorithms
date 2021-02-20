@@ -35,16 +35,14 @@ if(option==1):
 		print()
 		dictionary[keys]=values
 
-	#print(dictionary)
 	db[collectionName].insert_one(dictionary)
 	print("Recorded inserted successfully.")
+	
+	
+if(option==3):
+   result = db[collectionName].fetch({})
 
-	'''result = db[collectionName].fetch({})
+   for i in result:
+      print(i)
 
-	for i in result:
-		print(i)'''
 
-'''if(option==3):
-	result = db[collectionName].fetch({})
-	for i in result:
-		print(i)'''
