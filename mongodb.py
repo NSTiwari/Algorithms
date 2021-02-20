@@ -21,7 +21,8 @@ def main():
 		print("4. Delete")
 		print("5. Find")
 		print("6. Save Collection")
-		print("7. Import Collection", '\n')
+		print("7. Import Collection")
+		print("8. Aggregation", '\n')
 
 		option = int(input("Select one of the option: "))
 		print()
@@ -52,6 +53,9 @@ def main():
 
 		if(option==7):
 			import_collection(db, collectionName)
+
+		if(option==8):
+			aggregation(db, collectionName)
 
 
 # Get input data from user.
@@ -146,6 +150,28 @@ def import_collection(db, collectionName):
 		db[new_collection].insert_one(data[i])
 
 	print("The collection "+new_collection+" is imported in database.")
+
+
+# Compute Aggregation.
+def aggregation(db, collectionName):
+	result = db[collectionName].aggregate(
+		[
+			{ 
+    			"$group": { 
+      					   "_id": None, 
+        					"total": {"$sum": "$age"},
+        					"average": {"$avg": "$age"},
+        					"maximum": {"$max": "$age"},
+        					"minimum": {"$min": "$age"}  
+    					} 
+
+			} 
+		] 
+	)
+			
+
+	for i in result:
+		print(i)
 
 
 if __name__=="__main__":
