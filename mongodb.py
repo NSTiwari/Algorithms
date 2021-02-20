@@ -154,15 +154,16 @@ def import_collection(db, collectionName):
 
 # Compute Aggregation.
 def aggregation(db, collectionName):
+	aggregation_on = input("Enter the field to apply aggregation: ")
 	result = db[collectionName].aggregate(
 		[
 			{ 
     			"$group": { 
       					   "_id": None, 
-        					"total": {"$sum": "$age"},
-        					"average": {"$avg": "$age"},
-        					"maximum": {"$max": "$age"},
-        					"minimum": {"$min": "$age"}  
+        					"total": {"$sum": {"$toInt": "$age"}},
+        					"average": {"$avg":{"toInt": "$age"}},
+        					"maximum": {"$max": {"toInt": "$age"}},
+        					"minimum": {"$min": {"toInt": "$age"}}  
     					} 
 
 			} 
