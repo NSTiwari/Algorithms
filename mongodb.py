@@ -16,7 +16,7 @@ def main():
 	print("2. Update")
 	print("3. Read")
 	print("4. Delete")
-	print("5. Search", '\n')
+	print("5. Find", '\n')
 
 	option = int(input("Select one of the option: "))
 	print()
@@ -27,7 +27,7 @@ def main():
 		data(dictionary, n)
 
 		db[collectionName].insert_one(dictionary)
-		print("Recorded inserted successfully.")
+		print("Record inserted successfully.")
 
 	if(option==2):
 		update(db, collectionName)
@@ -38,6 +38,9 @@ def main():
 
 	if(option==4):
 		delete(db, collectionName)
+
+	if(option==5):
+		find(db, collectionName)
 
 
 
@@ -90,11 +93,19 @@ def update(db, collectionName):
 def delete(db, collectionName):
 	condition_dict = {}
 	condition_field = input("Delete record by: ")
-	condition_value = input("Enter the "+condition_field+" to delete records: ")
+	condition_value = input("Enter the "+condition_field+" to delete records()): ")
 	condition_dict[condition_field] = condition_value
 	db[collectionName].delete_many(condition_dict)
 	print("Record(s) deleted successfully.")
 
+def find(db, collectionName):
+	condition_dict = {}
+	condition_field = input("Find record by: ")
+	condition_value = input("Enter the "+condition_field+" to find record(s): ")
+	condition_dict[condition_field] = condition_value
+	result = db[collectionName].find(condition_dict)
+	for i in result:
+		print(i)
 
 
 if __name__=="__main__":
