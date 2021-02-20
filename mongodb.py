@@ -4,9 +4,9 @@ ip = '127.0.0.1'
 port = 27017
 
 dbName = input("Enter database name: ")
-print("Database "+dbName+" is created.", '\n')  
+print("Switched to database "+dbName+".", '\n')  
 collectionName = input("Enter collection name: ")
-print("Collection "+collectionName+" is created.", '\n')
+print("Switched to collection "+collectionName+".", '\n')
 
 client = MongoClient(ip, port)
 db = client[dbName]
@@ -40,7 +40,7 @@ if(option==1):
 	
 	
 if(option==3):
-   result = db[collectionName].fetch({})
+   result = db[collectionName].find({})
 
    for i in result:
       print(i)
