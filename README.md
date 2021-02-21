@@ -19,3 +19,4 @@ A curated list of algorithms in Python.
 
 ## Short Code Snippets
 - [Dynamic Dictionary Input](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/input_dictionary.py): Create a dynamic dictionary from user input.
+- [Save and load JSON](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/save_load_json.py): Save and load dictionary as JSON.
