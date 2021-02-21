@@ -16,3 +16,5 @@ A curated list of algorithms in Python.
 
 ## MongoDB Operations
 - [MongoDB Operations](https://github.com/NSTiwari/Algorithms/blob/main/mongodb.py): Command-line CRUD and other operations in MongoDB.
+
+## Short Code Snippets
