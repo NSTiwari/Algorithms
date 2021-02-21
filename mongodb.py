@@ -167,10 +167,10 @@ def aggregation(db, collectionName):
 			{ 
     			"$group": { 
       					   "_id": None, 
-        					"total": {"$sum": "$"+aggregation_on},
-        					"average": {"$avg": "$"+aggregation_on},
-        					"maximum": {"$max": "$"+aggregation_on},
-        					"minimum": {"$min": "$"+aggregation_on}  
+        					"total_"+aggregation_on: {"$sum": "$"+aggregation_on},
+        					"average_"+aggregation_on: {"$avg": "$"+aggregation_on},
+        					"maximum_"+aggregation_on: {"$max": "$"+aggregation_on},
+        					"minimum_"+aggregation_on: {"$min": "$"+aggregation_on}  
     					} 
 
 			} 
