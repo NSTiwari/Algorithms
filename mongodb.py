@@ -187,7 +187,9 @@ def aggregation(db, collectionName):
 
 def sort(db, collectionName):
 	sort_by = input("Sort record by: ")
-	result = db[collectionName].find().sort(sort_by)
+	order = int(input("Ascending (Type 1) or Descending (Type -1): "))
+	result = db[collectionName].find().sort(sort_by, order)
+	print()
 
 	for i in result:
 		print(i)
