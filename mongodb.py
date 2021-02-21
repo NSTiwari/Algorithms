@@ -22,7 +22,8 @@ def main():
 		print("5. Find")
 		print("6. Save Collection")
 		print("7. Import Collection")
-		print("8. Aggregation", '\n')
+		print("8. Aggregation")
+		print("9. Sort", '\n')
 
 		option = int(input("Select one of the option: "))
 		print()
@@ -57,6 +58,9 @@ def main():
 
 		if(option==8):
 			aggregation(db, collectionName)
+
+		if(option==9):
+			sort(db, collectionName)
 
 
 # Get input data from user.
@@ -177,6 +181,13 @@ def aggregation(db, collectionName):
 		] 
 	)
 			
+
+	for i in result:
+		print(i)
+
+def sort(db, collectionName):
+	sort_by = input("Sort record by: ")
+	result = db[collectionName].find().sort(sort_by)
 
 	for i in result:
 		print(i)
