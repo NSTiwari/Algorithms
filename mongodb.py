@@ -34,7 +34,6 @@ def main():
 			data(dictionary, n)
 
 			db[collectionName].insert_one(dictionary)
-			#print(dictionary.get('age'))
 			print("Record inserted successfully.")
 
 		if(option==2):
