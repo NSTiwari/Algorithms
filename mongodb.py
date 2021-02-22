@@ -71,10 +71,11 @@ def data(dictionary, n):
 	for i in range(n):
 		keys = input("Enter field"+str(i+1)+": ")
 		values=input("Enter value"+str(i+1)+": ")
+		if value.isdigit()==True:
+			value=int(value)
 		print()
 		dictionary[keys] = values
 
-	dictionary['age'] = int(dictionary['age'])
 
 
 # Read all data from the collection.
@@ -98,10 +99,10 @@ def update(db, collectionName):
 	for i in range(n):
 		field_to_be_updated = input("Enter field"+str(i+1)+" to be updated: ")
 		value_to_be_updated = input("Enter value"+str(i+1)+" to be updated: ")
+		if value_to_be_updated.isdigit()==True:
+			value_to_be_updated=int(value_to_be_updated)
 		print()
 		updated_dict[field_to_be_updated] = value_to_be_updated
-
-	updated_dict['age'] = int(updated_dict['age'])
 
 
 	db[collectionName].update_one(
@@ -185,6 +186,7 @@ def aggregation(db, collectionName):
 	for i in result:
 		print(i)
 
+# Sort records in collection.
 def sort(db, collectionName):
 	sort_by = input("Sort record by: ")
 	order = int(input("Ascending (Type 1) or Descending (Type -1): "))
