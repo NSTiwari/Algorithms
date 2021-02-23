@@ -14,9 +14,6 @@ A curated list of algorithms in Python.
 - [Cryptarithmetic Puzzle](https://github.com/NSTiwari/Algorithms/blob/main/Constraint%20Satisfaction%20Problems/cryptarithmetic.py): Cryptarithmetic Puzzle algorithm for user-defined words.
 - [Graph Coloring Problem](https://github.com/NSTiwari/Algorithms/blob/main/Constraint%20Satisfaction%20Problems/graph_coloring.py): Graph Coloring algorithm for user-defined graph and colours. 
 
-## MongoDB Operations
-- [MongoDB Operations](https://github.com/NSTiwari/Algorithms/blob/main/mongodb.py): Command-line CRUD and other operations in MongoDB.
-
 ## Short Code Snippets
 - [Dynamic dictionary input](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/input_dictionary.py): Create a dynamic dictionary from user input.
 - [Dynamic list input](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/input_list.py): Create a dynamic list from user input.
