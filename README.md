@@ -19,3 +19,5 @@ A curated list of algorithms in Python.
 - [Dynamic list input](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/input_list.py): Create a dynamic list from user input.
 - [Save and load JSON](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/save_load_json.py): Save and load dictionary as JSON.
 - [Lists to dictionary](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/lists_to_dictionary.py): Convert two lists into a dictionary.
+- [Mapper for word count](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/mapper.py): Mapper function to map words in a text document.
+- [Reducer for word count](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/reducer.py): Reducer function to reduce each word in a text document to their respective counts.
