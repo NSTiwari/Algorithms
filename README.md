@@ -12,7 +12,7 @@ A curated list of algorithms in Python.
 
 ## Constraint Satisfaction Problems
 - [Cryptarithmetic Puzzle](https://github.com/NSTiwari/Algorithms/blob/main/Constraint%20Satisfaction%20Problems/cryptarithmetic.py): Cryptarithmetic Puzzle algorithm for user-defined words.
-- [Graph Coloring Problem](https://github.com/NSTiwari/Algorithms/blob/main/Constraint%20Satisfaction%20Problems/graph_coloring.py): Graph Coloring algorithm for user-defined graph and colours. 
+- [Graph Coloring Problem](https://github.com/NSTiwari/Algorithms/blob/main/Constraint%20Satisfaction%20Problems/graph_coloring.py): Graph Coloring algorithm for user-defined graph and colours
 
 ## Short Code Snippets
 - [Dynamic dictionary input](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/input_dictionary.py): Create a dynamic dictionary from user input.
