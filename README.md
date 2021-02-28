@@ -11,7 +11,7 @@ A curated list of algorithms in Python.
 - [Hill Climbing Search](https://github.com/NSTiwari/Algorithms/blob/main/Search%20Algorithms/hill_climbing.py): Hill Climbing Search algorithm for user-defined graph and heuristics
 
 ## Constraint Satisfaction Problems
-- [Cryptarithmetic Puzzle](https://github.com/NSTiwari/Algorithms/blob/main/Constraint%20Satisfaction%20Problems/cryptarithmetic.py): Cryptarithmetic Puzzle algorithm for user-defined words.
+- [Cryptarithmetic Puzzle](https://github.com/NSTiwari/Algorithms/blob/main/Constraint%20Satisfaction%20Problems/cryptarithmetic.py): Cryptarithmetic Puzzle algorithm for user-defined words
 - [Graph Coloring Problem](https://github.com/NSTiwari/Algorithms/blob/main/Constraint%20Satisfaction%20Problems/graph_coloring.py): Graph Coloring algorithm for user-defined graph and colours
 
 ## Short Code Snippets
