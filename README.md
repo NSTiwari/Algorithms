@@ -15,7 +15,7 @@ A curated list of algorithms in Python.
 - [Graph Coloring Problem](https://github.com/NSTiwari/Algorithms/blob/main/Constraint%20Satisfaction%20Problems/graph_coloring.py): Graph Coloring algorithm for user-defined graph and colours
 
 ## Short Code Snippets
-- [Dynamic dictionary input](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/input_dictionary.py): Create a dynamic dictionary from user input.
+- [Dynamic dictionary input](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/input_dictionary.py): Create a dynamic dictionary from user input
 - [Dynamic list input](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/input_list.py): Create a dynamic list from user input.
 - [Save and load JSON](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/save_load_json.py): Save and load dictionary as JSON.
 - [Lists to dictionary](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/lists_to_dictionary.py): Convert two lists into a dictionary.
