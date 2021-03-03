@@ -16,10 +16,10 @@ A curated list of algorithms in Python.
 
 ## Short Code Snippets
 - [Dynamic dictionary input](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/input_dictionary.py): Create a dynamic dictionary from user input.
-- [Dynamic list input](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/input_list.py): Create a dynamic list from user input
+- [Dynamic list input](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/input_list.py): Create a dynamic list from user input.
 - [Save and load JSON](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/save_load_json.py): Save and load dictionary as JSON.
 - [Lists to dictionary](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/lists_to_dictionary.py): Convert two lists into a dictionary.
-- [Mapper for word count](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/mapper_word_count.py): Mapper function to map words in a text document
+- [Mapper for word count](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/mapper_word_count.py): Mapper function to map words in a text document.
 - [Reducer for word count](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/reducer_word_count.py): Reducer function to reduce each word in a text document to their respective counts.
 - [Mapper for matrix multiplication](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/mapper_matrix_multiplication.py): Mapper function to map elements of two matrices.
 - [Reducer for matrix multiplication](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/reducer_matrix_multiplication.py): Reducer function to reduce elements of two matrices to their product.
