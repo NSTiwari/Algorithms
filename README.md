@@ -22,4 +22,4 @@ A curated list of algorithms in Python.
 - [Mapper for word count](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/mapper_word_count.py): Mapper function to map words in a text document.
 - [Reducer for word count](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/reducer_word_count.py): Reducer function to reduce each word in a text document to their respective counts.
 - [Mapper for matrix multiplication](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/mapper_matrix_multiplication.py): Mapper function to map elements of two matrices.
-- [Reducer for matrix multiplication](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/reducer_matrix_multiplication.py): Reducer function to reduce elements of two matrices to their product.
+- [Reducer for matrix multiplication](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/reducer_matrix_multiplication.py): Reducer function to reduce elements of two matrices to their product
