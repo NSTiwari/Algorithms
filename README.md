@@ -25,3 +25,4 @@ A curated list of algorithms in Python.
 - [Reducer for matrix multiplication](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/reducer_matrix_multiplication.py): Reducer function to reduce elements of two matrices to their product.
 - [List input in one line](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/one_line_input.py): Take input elements of a list in one line.
 - [String reversal](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/reverse_string.py): Reverse a string.
+- [List to string](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/list_to_string.py): Convert a list into string.
