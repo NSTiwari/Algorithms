@@ -27,3 +27,4 @@ A curated list of algorithms in Python.
 - [String reversal](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/reverse_string.py): Reverse a string.
 - [List to string](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/list_to_string.py): Convert a list into string.
 - [String to list](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/string_to_list.py): Convert a string into list.
+- [Matrix](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/matrix.py): Create a matrix from user input.
