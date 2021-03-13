@@ -28,3 +28,5 @@ A curated list of algorithms in Python.
 - [List to string](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/list_to_string.py): Convert a list into string.
 - [String to list](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/string_to_list.py): Convert a string into list.
 - [Matrix](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/matrix.py): Create a matrix from user input.
+- [Binary to Decimal](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/binary_to_decimal.py): Convert binary number to decimal.
+- [Decimal to Binary](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/decimal_to_binary.py): Convert decimal number to binary.
