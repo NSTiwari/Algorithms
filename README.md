@@ -31,3 +31,4 @@ A curated list of algorithms in Python.
 - [Binary to Decimal](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/binary_to_decimal.py): Convert binary number to decimal.
 - [Decimal to Binary](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/decimal_to_binary.py): Convert decimal number to binary.
 - [Sum of first 'n' integers](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/sum_of_n_integers.py): Sum of numbers ranging from 1 to 'n'. 
+- [Caesar Cipher](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/caesar_cipher.py): Text encryption using Caesar Cipher.
