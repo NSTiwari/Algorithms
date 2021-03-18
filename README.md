@@ -33,3 +33,4 @@ A curated list of algorithms in Python.
 - [Sum of first 'n' integers](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/sum_of_n_integers.py): Sum of numbers ranging from 1 to 'n'. 
 - [Caesar Cipher](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/caesar_cipher.py): Text encryption using Caesar Cipher.
 - [Sum and merge dictionaries](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/add_merge_dictionary.py): Sum and merge multiple dictionaries.
+- [Combinations](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/combinations.py): All possible pairs of numbers in a list.
