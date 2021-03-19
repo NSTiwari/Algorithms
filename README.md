@@ -34,3 +34,4 @@ A curated list of algorithms in Python.
 - [Caesar Cipher](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/caesar_cipher.py): Text encryption using Caesar Cipher.
 - [Sum and merge dictionaries](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/add_merge_dictionary.py): Sum and merge multiple dictionaries.
 - [Combinations](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/combinations.py): All possible pairs of numbers in a list.
+- [Minumum squares](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/min_squares.py): Divide a rectangle into minimum number of equal-sized squares.
