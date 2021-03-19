@@ -35,3 +35,4 @@ A curated list of algorithms in Python.
 - [Sum and merge dictionaries](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/add_merge_dictionary.py): Sum and merge multiple dictionaries.
 - [Combinations](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/combinations.py): All possible pairs of numbers in a list.
 - [Minumum squares](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/min_squares.py): Divide a rectangle into minimum number of equal-sized squares.
+- [Missing number](https://github.com/NSTiwari/Algorithms/blob/main/Short%20Code%20Snippets/missing_number.py): Find the missing numbers in a sorted list.
